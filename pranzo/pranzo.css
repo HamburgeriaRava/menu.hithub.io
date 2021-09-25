@@ -8,22 +8,19 @@ body{
 	flex-direction: column;
 	align-items: center;
 	font-family: Helvetica;
-	background: #f2f2f2ff;
+	background: #7ca5e7ff;
 }
 
 nav{
 	position: fixed;
-	height:10vh;
+	height:5vh;
 	width: 100%;
-	background: #ecbd61ff;
-	background-image: url("svg/bg.svg"); 
-	background-position: center;
-	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background: #7ca5e7ff;
 	z-index: 10;
-	box-shadow: 0 2px 10px 5px rgba(0,0,0,0.3);
+	
 }
 nav img{
 	height: 5vh;
@@ -42,8 +39,9 @@ ul{
 	display: flex;
 	justify-content: flex-start;
 	overflow-x: scroll;
-	margin-top:10vh;
+	margin-top:5vh;
 	z-index: 9;
+	background: #7ca5e7ff;
 	/*box-shadow: 0 10px 10px 5px rgba(0,0,0,0.3);*/
 }
 
@@ -79,6 +77,19 @@ ul li a{
 
 
 
+.sezione{
+	margin-top: 17vh;
+	height: 10vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*background: #ecbd61ff;*/
+}
+
+.sezione img{
+	height: 17vh;
+}
 
 .panini{
 	width: 100%;
@@ -87,15 +98,17 @@ ul li a{
 	justify-content: center;
 }
 .menu{
-    min-height: 100vh;
-    width: 95%;
-    margin-top:3%;
+    min-height: 50vh;
+    width: 85%;
     margin-bottom: 3%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-top:16.4vh;
+    margin-top:10%;
+    background: rgba(255,255,255,0.3);
+    padding-bottom: 5%;
+ 
 }
 
 .wrap{
@@ -104,7 +117,7 @@ ul li a{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 30%;
+	margin-top: 20%;
 }
 
 @media (min-width: 966px){

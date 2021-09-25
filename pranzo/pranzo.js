@@ -161,7 +161,8 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.height = "10vh";
+    document.getElementById("navbar").style.height = "5vh";
+    document.getElementById("navbar").style.top = "0vh";
     document.getElementById("titolo").style.fontSize = "5vh";
     document.getElementById("ul").style.top = "0vh";
     document.getElementById("titolo").style.transition = "0.5s";
@@ -169,6 +170,7 @@ window.onscroll = function() {
     document.getElementById("navbar").style.transition = "0.5s";
   } else {
     document.getElementById("navbar").style.height = "5vh";
+    document.getElementById("navbar").style.top = "-10vh";
     document.getElementById("titolo").style.fontSize = "4vh";
     document.getElementById("ul").style.top = "-20vh";
     document.getElementById("titolo").style.transition = "0.5s";
