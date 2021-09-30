@@ -8,7 +8,6 @@ body{
 	flex-direction: column;
 	align-items: center;
 	font-family: Trebuchet MS, sans-serif;
-	
 }
 
 .bg{
@@ -16,7 +15,26 @@ body{
 	z-index: -1;
 	height: 105%;
 	width: 105%;
-	background: linear-gradient(-45deg,#74a9e8,#093075);
+	background-color:#467302;
+}
+.shape1{
+	height:100vh;
+	width: 100vh;
+	border-radius: 50%;
+	background-color:#1B4001;
+	position: absolute;
+	top: 50%;
+    box-shadow: inset 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+}
+.shape2{
+	height:100vh;
+	width: 100vh;
+	border-radius: 50%;
+	background-color:#1B4001;
+	position: absolute;
+	top: -70%;
+    left: -70%;
+    box-shadow: inset 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
 }
 
 nav{
@@ -105,16 +123,52 @@ ul li a{
 	justify-content: center;
 }
 .menu{
-    min-height: 50vh;
+    min-height: 30vh;
     width: 85%;
-    margin-bottom: 3%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     margin-top:10%;
-    padding-bottom: 5%;
- 
+    padding-bottom: 7%;
+    background: linear-gradient(-45deg,rgba(255,255,255,0.7),rgba(255,255,255,0.1));
+    border:solid 0.1vh white;
+    backdrop-filter: blur(20px);
+    border-radius: 4%;
+}
+
+.menuPanino{
+	min-height: 30vh;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top:10%;
+    padding-bottom: 7%;
+    background:rgba(255,255,255,0.7);
+    border:solid 0.1vh white;
+}
+
+.menuPanino img{
+	height: 20vh;
+	margin-bottom: 2%;
+	   border-radius: 0.5%;
+}
+
+#primo{
+   margin-top:30%;
+}
+#ultimo{
+	margin-bottom: 3%;
+}
+
+.menu h2, .menuPanino h2{
+	text-transform: uppercase;
+}
+
+.menuPanino h2{
+	margin-bottom: 2%;
 }
 
 .wrap{
@@ -130,9 +184,6 @@ ul li a{
 	border-radius: 5%;
 }
 
-#primo{
-	margin-top: 0%;
-}
 
 @media (min-width: 313px){
 
@@ -142,9 +193,9 @@ ul li a{
 	}
 }
 
-@media (min-width: 596px){
+@media (min-width: 1448px){
 
-
+    
 	
 	ul{
 		justify-content: center;
@@ -157,9 +208,6 @@ ul li a{
 @media (min-width: 742px){
 	.wrap{
          margin-top: 2%;
-	}
-	#primo{
-		margin-top:2%;
 	}
 }
 
@@ -261,6 +309,38 @@ h2{
 .row p{
 	font-size: 3vh;
 	font-weight: 700;
+}
+
+.rowpanino{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: left;
+	margin: 2% 0;
+	padding: 2%;
+}
+
+.rowpanino  p{
+	font-size: 3vh;
+	font-weight: 700;
+}
+
+.rowpanino > p{
+	margin-top: 2%;
+	text-align: center;
+}
+
+.paninoDesc .titoloPanino{
+	text-transform: uppercase;
+	font-size: 3.4vh;
+	margin-bottom: 5%;
+	color: #467302;
+}
+
+.rowpanino .ingPanino{
+	font-style:italic;
+	font-size: 2.5vh;
 }
 
 .row .pietanza{
