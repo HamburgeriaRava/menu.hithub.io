@@ -20,7 +20,7 @@ body{
 	z-index: -1;
 	height: 105%;
 	width: 105%;
-	background-color:#EFCD5F;
+	background-color:#D38F52;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -102,7 +102,7 @@ ul li a{
 	justify-content: center;
 	align-items: center;
 	font-size: 2.5vh;
-	font-weight: 600;
+	font-weight: 200;
 	text-decoration: none;
 	color:black;
 }
@@ -140,7 +140,7 @@ ul li a{
     align-items: center;
     margin-top:10%;
     padding-bottom: 7%;
-    background:#F4ED9D;
+    background:#E9DAC0;
     /*background: linear-gradient(-45deg,rgba(255,255,255,0.7),rgba(255,255,255,0.1));
     border:solid 0.1vh white;
     backdrop-filter: blur(20px);*/
@@ -163,7 +163,7 @@ ul li a{
 .menuPanino img{
 	height: 20vh;
 	margin-bottom: 2%;
-	   border-radius: 0.5%;
+	border-radius: 0.5%;
 }
 
 #primo{
@@ -202,6 +202,7 @@ ul li a{
 		margin-top: 17vh;
 	}
 }
+
 
 @media (min-width: 1448px){
 
@@ -318,7 +319,7 @@ h2{
 }
 .row p{
 	font-size: 3vh;
-	font-weight: 700;
+	font-weight: 200;
 }
 
 .rowpanino{
@@ -329,7 +330,7 @@ h2{
 	align-items: left;
 	margin: 5% 0;
 	padding: 2%;
-	background:#F4ED9D;
+	background:#E9DAC0;
 	border-radius: 5%;
 	padding: 6%;
 	box-shadow: 5px 5px 2px 0px #572300;
@@ -347,14 +348,14 @@ h2{
 }
 
 .menu .titolo{
-	color: #572300;
+	color: #492213;
 }
 
 .paninoDesc .titoloPanino{
 	text-transform: uppercase;
 	font-size: 4vh;
 	margin-bottom: 5%;
-	color: #572300;
+	color: #492213;
 }
 
 .rowpanino .ingPanino{
@@ -380,3 +381,20 @@ h2{
 
 
 
+@media (min-width: 358px){
+	
+.rowpanino{
+		width: 30vh;
+	}
+
+
+}
+
+
+@media (min-width: 600px){
+	.menuPanino{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+}
