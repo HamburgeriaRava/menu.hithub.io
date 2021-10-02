@@ -18,8 +18,8 @@ body{
 .bg{
 	position: fixed;
 	z-index: -1;
-	height: 105%;
-	width: 105%;
+	height: 100%;
+	width: 100%;
 	background-color:#D38F52;
 	display: flex;
 	justify-content: center;
@@ -27,23 +27,34 @@ body{
 	align-items: center;
 
 }
+
+.tooWidth{
+	background: gray;
+	display: none;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 12;
+}
+
+
 .shape1{
-	/*height:200vh;
+	height:200vh;
 	width: 30vh;
-	background-color:#D9AA50;
+	background-color:#B4793C;
 	position: absolute;
 	transform: rotate(45deg) translateX(-20vh);
 	top: 30%;
-    box-shadow: inset 2px 2px 10px 2px rgba(0, 0, 0, 0.3);*/
+    /*box-shadow: inset 2px 2px 10px 2px rgba(0, 0, 0, 0.3);*/
 }
 .shape2{
-	/*height:200vh;
+	height:200vh;
 	width: 10vh;
 	transform: rotate(45deg) translateX(-20vh);
-	background-color:#D9AA50;
+	background-color:#B4793C;
 	position: absolute;
 	top: -50%;
-    box-shadow: inset 2px 2px 10px 2px rgba(0, 0, 0, 0.3);*/
+    /*box-shadow: inset 2px 2px 10px 2px rgba(0, 0, 0, 0.3);*/
 }
 
 nav{
@@ -156,6 +167,7 @@ ul li a{
     justify-content: flex-start;
     align-items: center;
     padding-bottom: 7%;
+    margin-top: 20%;
     /*background:#D9AA50 /*rgba(255,255,255,0.7);
      box-shadow: inset 2px 2px 10px 2px rgba(0, 0, 0, 0.3);*/
 }
@@ -317,6 +329,11 @@ h2{
 	align-items: center;
 	margin: 2% 0;
 }
+
+.row img{
+	height: 4vh;
+	margin-right: 2%;
+}
 .row p{
 	font-size: 3vh;
 	font-weight: 200;
@@ -395,6 +412,30 @@ h2{
 	.menuPanino{
 		flex-wrap: wrap;
 		justify-content: center;
+	}
+
+}
+
+
+@media (min-width: 744px){
+	.tooWidth{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.tooWidth img{
+		height: 30vh;
+	}
+	.tooWidth h1{
+		color: white;
+		text-align: center;
+		width: 80%;
+		font-weight: 200;
+	}
+
+	body{
+		overflow: hidden;
 	}
 
 }
