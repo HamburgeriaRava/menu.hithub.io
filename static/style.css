@@ -20,7 +20,7 @@ body{
 	z-index: -1;
 	height: 120%;
 	width: 100%;
-	background-color:#c4c4c4;
+	background-color:white;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -155,9 +155,9 @@ ul li a{
     /*background: linear-gradient(-45deg,rgba(255,255,255,0.7),rgba(255,255,255,0.1));
     border:solid 0.1vh white;
     backdrop-filter: blur(20px);*/
-    background: white;
+    background:#FADD6A;
     border-radius: 4%;
-     box-shadow: 5px 5px 5px 0px #572300;
+
 }
 
 .menuPanino{
@@ -188,6 +188,7 @@ ul li a{
 
 .menu h2, .menuPanino h2{
 	text-transform: uppercase;
+	color: #492213;
 }
 
 .menuPanino h2{
@@ -348,10 +349,10 @@ h2{
 	align-items: left;
 	margin: 5% 0;
 	padding: 2%;
-	background:white;
+	background:#FADD6A;
 	border-radius: 5%;
 	padding: 6%;
-	box-shadow: 5px 5px 5px 0px #572300;
+	/*box-shadow: 5px 5px 5px 0px #572300;*/
 }
 
 .rowpanino  p{
@@ -363,6 +364,7 @@ h2{
 .rowpanino > p{
 	margin-top: 2%;
 	text-align: center;
+	font-weight: 200;
 }
 
 .menu .titolo{
@@ -379,7 +381,7 @@ h2{
 .rowpanino .ingPanino{
 	font-size: 2.5vh;
 	color: black;
-	font-weight: 200;
+	font-weight: 100;
 }
 
 .row .pietanza{
