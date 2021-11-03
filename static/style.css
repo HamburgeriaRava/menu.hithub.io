@@ -18,7 +18,7 @@ body{
 .bg{
 	position: fixed;
 	z-index: -1;
-	height: 120%;
+	height: 100%;
 	width: 100%;
 	background-color:white;
 	display: flex;
@@ -69,7 +69,7 @@ body{
 */
 nav{
 	position: fixed;
-	height:14vh;
+	height:8vh;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -351,7 +351,7 @@ h2{
 }
 .row p{
 	font-size: 2.7vh;
-	font-weight: 200;
+	font-weight: 700;
 	font-family: Montserrat;
 }
 
@@ -406,7 +406,7 @@ h2{
 .rowpanino .ingPanino{
 	font-size: 2.5vh;
 	color: black;
-	font-weight: 100;
+	font-weight: 700;
 }
 
 .row .pietanza{
@@ -428,7 +428,7 @@ h2{
 
 .spanP{
 	width: 80%;
-	height: 0.2vh;
+	height: 1px;
 	background: rgba(0,0,0,0.2);
 	margin: 2%;
 }

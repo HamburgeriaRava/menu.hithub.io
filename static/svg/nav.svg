@@ -24,17 +24,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="329.88853"
-     inkscape:cy="472.00912"
+     inkscape:cx="432.98377"
+     inkscape:cy="487.24722"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1631"
-     inkscape:window-height="1020"
-     inkscape:window-x="128"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -43,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -53,7 +53,8 @@
      id="layer1">
     <path
        id="rect833"
-       style="fill:#96bb7c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4.59113;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill;stop-color:#000000"
-       d="m -1.1536637,129.96375 v 16.73684 c 0,0 10.3063118,7.49393 15.8029407,4.99591 1.832211,-0.83266 2.565715,-2.45881 5.496695,-2.49806 8.745147,-0.11712 9.14095,7.24944 17.863907,6.99459 8.231122,-0.24048 5.563665,-7.07757 13.741504,-7.49398 5.953556,-0.30316 7.874739,3.76951 13.741504,4.24649 11.114785,0.90366 21.767607,-3.9751 32.979705,-3.24749 10.510038,0.68206 15.464308,7.04173 26.109178,6.74479 11.1427,-0.31083 12.92277,-8.1075 24.04775,-8.49322 8.72646,-0.30255 13.38449,5.85976 21.98631,5.24573 4.36357,-0.31149 3.17376,-3.72676 7.55814,-3.99691 8.40048,-0.51761 12.28399,6.15007 20.612,5.49575 8.21901,-0.64575 12.36769,-7.9936 12.36769,-7.9936 v -16.73684 z" />
+       style="fill:#96bb7c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.07743;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill;stop-color:#000000"
+       d="m -1.1536637,110.03682 v 29.32741 c 0,0 10.3063118,13.13137 15.8029407,8.75417 1.832211,-1.45904 2.565715,-4.30849 5.496695,-4.37726 8.745147,-0.20523 7.629045,13.08093 16.352002,12.63437 8.231122,-0.42139 7.07557,-12.77978 15.253409,-13.50944 5.953556,-0.53122 15.056287,10.00698 20.923052,10.84278 11.114785,1.58345 14.586059,-10.36723 25.798157,-9.09226 10.510038,1.19515 15.464308,12.33899 26.109178,11.81867 11.1427,-0.54466 12.92277,-14.20651 24.04775,-14.88239 8.72646,-0.53015 9.79372,11.2128 18.39554,10.13686 4.36357,-0.54581 6.76453,-7.47522 11.14891,-7.94859 8.40048,-0.907 12.28399,10.77656 20.612,9.63002 8.21901,-1.13153 12.36769,-14.00693 12.36769,-14.00693 v -29.32741 z"
+       sodipodi:nodetypes="ccscsssssssssccc" />
   </g>
 </svg>
