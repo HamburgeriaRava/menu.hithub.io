@@ -22,9 +22,19 @@ body{
 	width: 100%;
 	background-color:white;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	flex-direction: column;
 	align-items: center;
+
+}
+.shape1{
+	height: 25vh;
+	width: 100%;
+	background: #96bb7c;
+	border: #96bb7c;
+}
+
+.bg svg{
 
 }
 
@@ -59,12 +69,14 @@ body{
 */
 nav{
 	position: fixed;
-	height:5vh;
+	height:14vh;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background:rgba(255,255,255,1);
+	background-image: url("svg/nav.svg");
+	background-size: cover;
+	background-position: center;
 	z-index: 10;
 	
 }
@@ -156,6 +168,7 @@ ul li a{
     border:solid 0.1vh white;
     backdrop-filter: blur(20px);*/
     background:#FADD6A;
+    background:#fdcb6e;
     border-radius: 4%;
 
 }
@@ -337,32 +350,43 @@ h2{
 	margin-right: 2%;
 }
 .row p{
-	font-size: 3vh;
+	font-size: 2.7vh;
 	font-weight: 200;
+	font-family: Montserrat;
 }
 
 .rowpanino{
 	width: 90%;
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: left;
 	margin: 5% 0;
 	padding: 2%;
-	background:#FADD6A;
+	background:#fdcb6e;
 	border-radius: 5%;
 	padding: 6%;
 	/*box-shadow: 5px 5px 5px 0px #572300;*/
 }
 
+.rowpanino > img{
+	height: 11vh;
+	position: absolute;
+	top: -15px;
+	right: -10px;
+}
+
 .rowpanino  p{
-	font-size: 3vh;
+	font-size: 3.2vh;
 	font-weight: 700;
 	color: #572300;
+	font-family: Montserrat;
+
 }
 
 .rowpanino > p{
-	margin-top: 2%;
+	margin-top: 4%;
 	text-align: center;
 	font-weight: 200;
 }
@@ -372,6 +396,7 @@ h2{
 }
 
 .paninoDesc .titoloPanino{
+	font-family: BlockBE;
 	text-transform: uppercase;
 	font-size: 4vh;
 	margin-bottom: 5%;
@@ -397,14 +422,44 @@ h2{
 	width: 80%;
 	height: 0.2vh;
 	background: rgba(0,0,0,0.2);
+	z-index: 3;
+	margin: 2%;
 }
 
+.spanP{
+	width: 80%;
+	height: 0.2vh;
+	background: rgba(0,0,0,0.2);
+	margin: 2%;
+}
 
 
 @media (min-width: 358px){
 	
 .rowpanino{
 		width: 35vh;
+	}
+
+
+}
+
+.paninoDesc > img{
+	height: 3vh;
+}
+
+@media (min-width: 396px){
+	
+.rowpanino{
+		width: 40vh;
+	}
+
+
+}
+
+@media (min-width: 500px){
+	
+.rowpanino{
+		width: 45vh;
 	}
 
 
