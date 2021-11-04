@@ -70,10 +70,11 @@ body{
 */
 nav{
 	position: fixed;
-	height:8vh;
+	height:10vh;
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	justify-content: flex-start;
 	align-items: center;
 	background-image: url("svg/nav.svg");
 	background-size: cover;
