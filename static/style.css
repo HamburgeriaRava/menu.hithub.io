@@ -20,19 +20,19 @@ body{
 	z-index: -1;
 	height: 100%;
 	width: 100%;
-	background-color:white;
+	background:#fdcb6e;
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;
 	align-items: center;
 
 }
-.shape1{
+/*.shape1{
 	height: 25vh;
 	width: 100%;
 	background: #96bb7c;
 	border: #96bb7c;
-}
+}*/
 
 .bg svg{
 
@@ -96,7 +96,7 @@ ul{
 	display: flex;
 	justify-content: flex-start;
 	overflow-x: scroll;
-	margin-top:5vh;
+	margin-top:7vh;
 	z-index: 9;
 	
 	/*box-shadow: 0 10px 10px 5px rgba(0,0,0,0.3);*/
@@ -169,6 +169,8 @@ ul li a{
     backdrop-filter: blur(20px);*/
     background:#FADD6A;
     background:#fdcb6e;
+box-shadow:  20px 20px 60px #d7ad5e,
+             -20px -20px 60px #ffe97f;
     border-radius: 4%;
 
 }
@@ -193,7 +195,7 @@ ul li a{
 }
 
 #primo{
-   margin-top:30%;
+   margin-top:35%;
 }
 #ultimo{
 	margin-bottom: 3%;
@@ -205,6 +207,7 @@ ul li a{
 }
 
 .menuPanino h2{
+	margin-top: 15%;
 	margin-bottom: 2%;
 }
 
@@ -364,10 +367,14 @@ h2{
 	align-items: left;
 	margin: 5% 0;
 	padding: 2%;
-	background:#fdcb6e;
+	background:#78260aff;
 	border-radius: 5%;
 	padding: 6%;
 	/*box-shadow: 5px 5px 5px 0px #572300;*/
+
+	background-image: url("svg/bg.svg");
+	background-size: cover;
+	background-position: center;
 }
 
 .rowpanino > img{
@@ -380,7 +387,7 @@ h2{
 .rowpanino  p{
 	font-size: 3.2vh;
 	font-weight: 700;
-	color: #572300;
+	color: #470b07ff;
 	font-family: Montserrat;
 
 }
@@ -388,8 +395,9 @@ h2{
 .rowpanino > p{
 	margin-top: 4%;
 	text-align: center;
-	font-weight: 200;
+	font-weight: 700;
 }
+
 
 .menu .titolo{
 	color: #492213;
@@ -400,12 +408,15 @@ h2{
 	text-transform: uppercase;
 	font-size: 4vh;
 	margin-bottom: 5%;
-	color: #492213;
+	color: #D14E0D;
+	font-weight: 100;
 }
+
+
 
 .rowpanino .ingPanino{
 	font-size: 2.5vh;
-	color: black;
+	color: white;
 	font-weight: 700;
 }
 
@@ -434,7 +445,15 @@ h2{
 }
 
 
-@media (min-width: 358px){
+@media (min-width: 360px){
+	
+.rowpanino{
+		width: 40vh;
+	}
+
+
+}
+@media (min-width: 370px){
 	
 .rowpanino{
 		width: 35vh;
