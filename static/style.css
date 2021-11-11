@@ -70,20 +70,20 @@ body{
 */
 nav{
 	position: fixed;
-	height:10vh;
+	height:4vh;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	background-image: url("svg/nav.svg");
+	/*background-image: url("svg/nav.svg");*/
 	background-size: cover;
 	background-position: center;
 	z-index: 10;
 	
 }
 nav img{
-	height: 5vh;
+	height: 90%;
 }
 nav h1{
 	font-size: 5vh;
@@ -91,14 +91,14 @@ nav h1{
 
 ul{
 	position: fixed;
-	padding: 3%;
-	height: 5.6vh;
+	min-height: 5.6vh;
 	width: 100%;
 	list-style: none;
 	display: flex;
-	justify-content: flex-start;
-	overflow-x: scroll;
-	margin-top:7vh;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top:4vh;
 	z-index: 9;
 	
 	/*box-shadow: 0 10px 10px 5px rgba(0,0,0,0.3);*/
@@ -110,9 +110,9 @@ ul{
 }
 
 ul li{
-	height: 5vh;
-	min-width: 15vh;
-	margin:0 2%;
+	height: 4vh;
+	min-width: 13vh;
+	margin:1.4% 2%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -124,15 +124,30 @@ ul li a{
 	height: 80%;
 	padding:0 20%;
 	display: flex;
+	font-family: Montserrat;
 	justify-content: center;
 	align-items: center;
-	font-size: 2.5vh;
-	font-weight: 200;
+	font-size: 2vh;
+	font-weight: 700;
 	text-decoration: none;
 	color:black;
 }
 
+a:active{
+	background-image: url("svg/disegnoselez.svg");
+	background-size: cover;
+	background-position: center;
+}
 
+#selected{
+    background-image: url("svg/disegnoselez.svg");
+	background-size: cover;
+	background-position: center;
+
+}
+#selectedA{
+	color: white;
+}
 
 
 
@@ -169,10 +184,7 @@ ul li a{
     /*background: linear-gradient(-45deg,rgba(255,255,255,0.7),rgba(255,255,255,0.1));
     border:solid 0.1vh white;
     backdrop-filter: blur(20px);*/
-    background:#FADD6A;
-    background:#fdcb6e;
-box-shadow:  20px 20px 60px #d7ad5e,
-             -20px -20px 60px #ffe97f;
+    background:#C4694B;
     border-radius: 4%;
 
 }
@@ -202,6 +214,11 @@ box-shadow:  20px 20px 60px #d7ad5e,
 #ultimo{
 	margin-bottom: 3%;
 }
+
+#secondi{
+	border-radius: 1%;
+}
+
 
 .menu h2, .menuPanino h2{
 	text-transform: uppercase;
@@ -354,7 +371,7 @@ h2{
 	height: 4vh;
 	margin-right: 2%;
 }
-.row p{
+.row > p{
 	font-size: 2.7vh;
 	font-weight: 700;
 	font-family: Montserrat;
@@ -426,9 +443,35 @@ h2{
   width: 80%;
   height: 80%;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: left;
   line-height: 102%;
+}
+
+.pietanza{
+	font-size: 2.7vh;
+	font-weight: 700;
+	font-family: Montserrat
+}
+
+.sottodescrizione{
+	font-size: 2vh;
+	min-height: 80%;
+	width: 100%;
+	line-height: 102%;
+	font-weight: 200;
+	font-family: Montserrat
+}
+
+.secondoDes{
+	width: 80%;
+	min-height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: left;
+	line-height: 102%;
 }
 
 .span{
