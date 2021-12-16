@@ -70,20 +70,20 @@ body{
 */
 nav{
 	position: fixed;
-	height:4vh;
+	height:10vh;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	/*background-image: url("svg/nav.svg");*/
+	background-image: url("svg/nav.svg");
 	background-size: cover;
 	background-position: center;
 	z-index: 10;
 	
 }
 nav img{
-	height: 90%;
+	height: 7vh;
 }
 nav h1{
 	font-size: 5vh;
@@ -91,14 +91,14 @@ nav h1{
 
 ul{
 	position: fixed;
-	min-height: 5.6vh;
+	padding: 3%;
+	height: 5.6vh;
 	width: 100%;
 	list-style: none;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	margin-top:4vh;
+	justify-content: flex-start;
+	overflow-x: scroll;
+	margin-top:9vh;
 	z-index: 9;
 	
 	/*box-shadow: 0 10px 10px 5px rgba(0,0,0,0.3);*/
@@ -110,9 +110,9 @@ ul{
 }
 
 ul li{
-	height: 4vh;
-	min-width: 13vh;
-	margin:1.4% 2%;
+	height: 5vh;
+	min-width: 15vh;
+	margin:0 2%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -124,14 +124,15 @@ ul li a{
 	height: 80%;
 	padding:0 20%;
 	display: flex;
-	font-family: Montserrat;
 	justify-content: center;
 	align-items: center;
-	font-size: 2vh;
-	font-weight: 700;
+	font-size: 2.5vh;
+	font-weight: 200;
 	text-decoration: none;
 	color:black;
 }
+
+
 
 a:active{
 	background-image: url("svg/disegnoselez.svg");
@@ -149,7 +150,9 @@ a:active{
 	color: white;
 }
 
-
+#secondi{
+border-radius: 1%;
+}
 
 .sezione{
 	margin-top: 14vh;
@@ -184,7 +187,7 @@ a:active{
     /*background: linear-gradient(-45deg,rgba(255,255,255,0.7),rgba(255,255,255,0.1));
     border:solid 0.1vh white;
     backdrop-filter: blur(20px);*/
-    background:#C4694B;
+    background:#78260aff;
     border-radius: 4%;
 
 }
@@ -197,7 +200,7 @@ a:active{
     justify-content: flex-start;
     align-items: center;
     padding-bottom: 7%;
-    margin-top: 20%;
+    margin-top: 32%;
     /*background:#D9AA50 /*rgba(255,255,255,0.7);
      box-shadow: inset 2px 2px 10px 2px rgba(0, 0, 0, 0.3);*/
 }
@@ -215,18 +218,19 @@ a:active{
 	margin-bottom: 3%;
 }
 
-#secondi{
-	border-radius: 1%;
+#primoultimo{
+	margin-top:35%;
+	margin-bottom: 3%;
 }
-
 
 .menu h2, .menuPanino h2{
 	text-transform: uppercase;
-	color: #492213;
+	color: #D14E0D;
+	font-weight: 200;
 }
 
 .menuPanino h2{
-	margin-top: 15%;
+	margin-top:5%;
 	margin-bottom: 2%;
 }
 
@@ -365,16 +369,18 @@ h2{
 	justify-content: space-between;
 	align-items: center;
 	margin: 2% 0;
+
 }
 
 .row img{
 	height: 4vh;
 	margin-right: 2%;
 }
-.row > p{
+.row  p{
 	font-size: 2.7vh;
 	font-weight: 700;
 	font-family: Montserrat;
+	color: white;
 }
 
 .rowpanino{
@@ -419,7 +425,9 @@ h2{
 
 
 .menu .titolo{
-	color: #492213;
+	color: #D14E0D;
+    font-weight: 200;
+
 }
 
 .paninoDesc .titoloPanino{
@@ -443,35 +451,9 @@ h2{
   width: 80%;
   height: 80%;
   display: flex;
-  flex-direction: column;
   justify-content: flex-start;
-  align-items: left;
+  align-items: center;
   line-height: 102%;
-}
-
-.pietanza{
-	font-size: 2.7vh;
-	font-weight: 700;
-	font-family: Montserrat
-}
-
-.sottodescrizione{
-	font-size: 2vh;
-	min-height: 80%;
-	width: 100%;
-	line-height: 102%;
-	font-weight: 200;
-	font-family: Montserrat
-}
-
-.secondoDes{
-	width: 80%;
-	min-height: 80%;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: left;
-	line-height: 102%;
 }
 
 .span{
@@ -489,12 +471,20 @@ h2{
 	margin: 2%;
 }
 
+.row .sottodescrizione{
+	font-size: 1.6vh;
+	font-weight: 100;
+}
 
 @media (min-width: 360px){
 	
 .rowpanino{
 		width: 40vh;
 	}
+
+#primoultimo{
+	margin-top: 40%;
+}
 
 
 }
